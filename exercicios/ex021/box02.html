@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+            text-align: left;
+            
+        }
+        header{
+            background-color: #011140;
+            padding: 10px;
+            margin: 0px;
+            color: white;
+            
+            box-shadow: 1px 1px 2px 2px black;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+            border-radius: 20px 0px;
+            box-shadow: 1px 1px 2px 2px black;
+        
+            
+
+        }
+
+        footer{
+            background-color: rgba(0, 0, 0, 0.575);
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            text-align: center;
+            font-size: large;
+            
+            box-shadow: 1px 1px 2px 2px black;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        article>aside{
+            background-color: rgb(126, 124, 124);
+        }
+
+        nav>a:hover{
+            color: rgb(53, 53, 189);
+        }
+
+        nav>a{
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            color: black;
+            font-weight: bold;
+            margin-right: 15px;
+            color: white;
+            margin-left: 10px;
+            }
+
+        footer>aside{
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0px;
+            border-radius: 10px 0px;
+        }
+
+        footer>aside>:hover{
+            color: brown;
+        }
+       
+    
+        section>article>img{
+            margin-left: 40%;
+            
+        }
+
+        #assuntos{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            
+            
+        }
+
+        #saude{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Assinante</a>
+            <a href="#">Cadastro</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes 
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Futebol Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repellat iure excepturi sed odit, accusamus asperiores pariatur nemo ex magnam molestiae officiis quae molestias eveniet debitis facilis earum, fuga modi! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <section id="saude">
+                Saúde
+            </section>
+            <article>
+                <h2>Receitas para dieta</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur sunt exercitationem provident officiis labore enim deserunt deleniti nihil? Asperiores fuga omnis libero nemo similique porro enim minus in cum reiciendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus expedita sunt maxime inventore nihil provident iusto modi perferendis ipsa. Distinctio vero placeat possimus ex consequuntur est eaque assumenda hic optio.</p>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Leonardo Chaguri
+        <aside>
+            Contato:
+            <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>E-mail</li>
+            <li>Telefone</li>
+        
+        </ul>
+    </aside>
+    </footer>
+</body>
+</html>

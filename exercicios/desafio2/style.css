@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body#head{
+    margin: 0px;
+}
+
+body{
+    background-color:#75cc9b;
+}
+
+body>main{
+    background-color: white;
+    width: 1200px;
+    padding: 15px;
+    margin: auto;
+
+}
+header{
+    background-color: green;
+    text-align: center;  
+    background-image: linear-gradient(to top, #135532fd, rgba(255, 255, 255, 0.438));
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 35px 10px 25px;
+    margin: 0%;
+    font-size: 25px;
+    
+}   
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+#menu{
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    font-family:sans-serif;
+    margin-right: 10px;
+    }
+
+header>h2{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 15px 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+main>h1{
+    font-family: idroid;
+    color: #0d412b;
+    margin: 10px;
+    font-size: 35px;
+    
+    }
+
+main>h2{
+    font-family: idroid;
+    color: #0d412b;
+    margin: 10px;
+    background-image: linear-gradient(to right,#81e2ab79, white );
+    
+
+}
+
+main>h3{
+    margin-left: 190px;
+}
+
+main>h4{
+    margin-left: 450px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body>main>h5{
+    background-color: #247c49;
+    margin: 0px;
+    padding: 10px 10px 10px 70px;
+}
+
+#top{
+    background-color:#30d477;
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 0px;  
+    font-weight: bold;
+}
+
+#meio{
+    background-color: #a2e5bf62;
+    padding: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+footer{
+    background-color: #1d5f38;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
